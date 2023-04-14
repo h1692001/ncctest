@@ -1,23 +1,127 @@
-*{
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+* {
+    padding: 0; 
+    margin: 0;   
+    border: none; 
+    }
 .contaier{
     width: 100%;
     display: flex;
     height: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .left_container{    
     width: 10%;
-    border: 1px solid red;
     height: 100%;
     background: black;
+    
+}
+.left_container .section{
+}
+.left_container .section .section1{
+    padding: 10px;
+    border-bottom: #5c5c5c 1px solid;
+    color: white;
+    font-weight: 500;
+}
+.left_container .section .section1:hover{
+    background: #5c5c5c ;
+    color: white;
+}
+.left_container .section .section2{
+    padding: 10px;
+    border-bottom: #5c5c5c 1px solid;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+.left_container .section .section2:hover{
+    background: #5c5c5c ;
+    color: white;
+}
+.left_container .section .section3{
+    padding: 10px;
+    border-bottom: #5c5c5c 1px solid;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+.left_container .section .section3:hover{
+    background: #5c5c5c ;
+    color: white;
+}
+.left_container .section .section4{
+    padding: 10px;
+    border-bottom: #5c5c5c 1px solid;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+.left_container .section .section4:hover{
+    background: #5c5c5c ;
+    color: white;
+}
+.left_container .section .section5{
+    padding: 10px;
+    border-bottom: #5c5c5c 1px solid;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+.left_container .section .section5:hover{
+    background: #5c5c5c ;
     color: white;
 }
 .right_container{
     width: 90%;
     height: 100%;
-    border: 1px solid red;
+}
+.right_container .right_container-dad{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    background: url('../ncctest/8.-NCC.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.title{
+    width: 100%;
+    height: 200px;
+    background: #efefef;
+}
+.title .title_header{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+}
+.title .content{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.content_dad{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.content_child{
+    width: 400px;
+}
+.title1{
+    font-weight:500;
+}
+.copyright{
+    position: absolute;
+    margin-top: -60px;
+    padding-left: 200px;
+    border-top: 1px solid #5c5c5c;
+    width: 100%;
+}
+.hr{
+    padding-left: px;
+    
 }
